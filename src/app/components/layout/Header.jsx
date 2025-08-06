@@ -224,10 +224,7 @@ export default function Header() {
               />
               <Box
                 sx={{
-                  display: {
-                    xs: "none",
-                    sm: "flex",
-                  },
+                  display: "flex", 
                   alignItems: "center",
                   alignContent: "center",
                   position: "relative",
@@ -269,3 +266,4 @@ export default function Header() {
     </>
   );
 }
+

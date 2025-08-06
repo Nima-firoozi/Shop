@@ -4,7 +4,6 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <Link href="/shop" style={{ width: "100%", height: "auto" }}>
       <Image
         src={"/banner.webp"}
         style={{ width: "100%", objectFit: "cover", height: "auto" }}
@@ -12,6 +11,6 @@ export default function Banner() {
         height="10000"
         alt="bonmanooooooo"
       />
-    </Link>
   );
 }
+

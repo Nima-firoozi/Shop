@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <>
+      //dont give up
       <Typography
         sx={{
           padding: "10px",

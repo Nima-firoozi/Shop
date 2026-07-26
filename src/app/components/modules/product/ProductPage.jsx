@@ -62,7 +62,7 @@ export default function ProductPage({ data }) {
         </Link>
         &gt;
         <Link
-          href={data.shop == "kh" ? "/shopKh" : "shopHoo"}
+          href={data.shop == "kh" ? "/shopKh" : "/shopHoo"}
           style={{ textDecoration: "none", color: "black", fontSize: "24px" }}>
           {data.shop == "kh" ? "محصولات خانگی" : "محصولات هورکا"}
         </Link>

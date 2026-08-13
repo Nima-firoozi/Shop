@@ -151,7 +151,7 @@ export default function BasketSideBar({ open, changeOpen }) {
             }}>
             <Link
               onClick={changeOpen}
-              href="./basket"
+              href="/basket"
               style={{
                 display: "flex",
                 justifyContent: "center",

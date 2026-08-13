@@ -1,17 +1,18 @@
 @font-face {
-    font-family: ios;
-    src: url(../../public/font/FontIos15.ttf);
+    font-family: vazir;
+    src: url(../../public/font/Vazirmatn-Medium.ttf);
 }
 
+
+
+
 * {
+    font-family: vazir;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: ios;
-}
 
 main {
     width: 100%;

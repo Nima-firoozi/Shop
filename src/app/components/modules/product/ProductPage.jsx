@@ -129,6 +129,7 @@ export default function ProductPage({ data }) {
         </Box>
         <Box
           sx={{
+            whiteSpace: "nowrap",
             position: "sticky",
             top: "120px",
             borderRadius: "10px",
